@@ -16,7 +16,7 @@ const Footer = () => {
                     </GitHubButton>
                 </div>
                 <GitHubButton
-                    href="https://github.com/MdAqib184/SE_Project"
+                    href="https://github.com/MdAqib184/Algorithm-Visualizer"
                     data-icon="octicon-star"
                     data-show-count="true"
                     aria-label="Star MdAqib184/Pathfinder-2.0 on GitHub"
@@ -26,7 +26,7 @@ const Footer = () => {
                 &nbsp;
                 <GitHubButton
                     //href="https://github.com/MdAqib184/Pathfinder-2.0/fork"
-                    href="https://github.com/MdAqib184"
+                    href="https://github.com/MdAqib184/Algorithm-Visualizer/fork"
                     data-icon="octicon-repo-forked"
                     data-show-count="true"
                     aria-label="Fork MdAqib184/Pathfinder-2.0 on GitHub"

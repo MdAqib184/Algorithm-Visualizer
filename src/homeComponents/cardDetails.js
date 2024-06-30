@@ -1,5 +1,7 @@
 import sort1 from "./images/sort1.png";
 import sort from "./images/sort.png";
+import binSearch from "./images/binSearch.png";
+
 export function getDetails(){
    return [
        {
@@ -15,6 +17,13 @@ export function getDetails(){
            description:"Compare different recursive sorting algorithms",
            route:"/recursivesort",
            img:sort
+       },
+       {
+           id:3,
+           title:"Binary Search",
+           description:"Binary search is an efficient algorithm for finding an item from a sorted list of item",
+           route:"/binarysearch",
+           img:binSearch
        },
 
    ]
