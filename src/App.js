@@ -7,7 +7,7 @@ import BinarySearch from './binarySearchComponent/binarySearch';
 
 function App() {
   return (
-    <Router basename="/Algorithm-Visualizer">
+    <Router>
       <Routes>
         <Route path='/sort' element={<Sort />} />
         <Route path='/' element={<HomeDetails />} />
