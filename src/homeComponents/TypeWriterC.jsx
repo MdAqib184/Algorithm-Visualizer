@@ -8,7 +8,7 @@ const TypeWriterC = () => {
             <span className="badge badge-dark">
                 <Typewriter
                     options={{
-                        strings: ['Sorting Algorithms', 'Binary Search Algorithm', 'Graph Algorithms', 'N Queen Algorithm', '15 Puzzle Algorithm'],
+                        strings: ['Sorting Algorithms', 'Binary Search Algorithm', 'Graph Algorithms', 'N Queen Algorithm', 'Prime Number'],
                         autoStart: true,
                         loop: true,
                     }}

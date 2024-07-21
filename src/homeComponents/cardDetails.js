@@ -1,7 +1,10 @@
 import sort1 from "./images/sort1.png";
 import sort from "./images/sort.png";
 import binSearch from "./images/binSearch.png";
-import graph from "./images/graph.png"
+import graph from "./images/pathfinder.png"
+import queen from "./images/queen.png"
+// import prime from "./images/prime.jpeg"
+import seive from "./images/seive.jpeg"
 
 export function getDetails() {
     return [
@@ -32,6 +35,21 @@ export function getDetails() {
             description: "Visualize graph algorithms like dijkstra, BFS, DFS",
             route: "/pathfinder",
             img: graph
+        },
+        {
+            id:5,
+            title:"N Queen",
+            description:"The N queens puzzle is the problem of placing N chess queens on an N*N chessboard so that no two queens threaten each other",
+            route:"/nqueen",
+            img:queen
+        },
+        {
+            id:6,
+            title:"Prime Numbers",
+            description:"Visualization of how Seive is better than brute force",
+            route:"/prime",
+            //img:prime
+            img:seive
         },
 
     ]
